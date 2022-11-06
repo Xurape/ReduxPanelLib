@@ -21,7 +21,7 @@ class ReduxPanel extends Facade
         return 'reduxpanel';
     }
 
-    public function getPanelVersion()
+    public static function getPanelVersion()
     {
         return Http::get($this->URL . '/modules/api/data?comando=versao')['versao'];
     }
