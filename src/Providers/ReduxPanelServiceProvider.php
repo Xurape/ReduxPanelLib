@@ -20,6 +20,9 @@ class ReduxPanelServiceProvider extends ServiceProvider
             $this->commands([
                 InstallReduxPanelLib::class,
             ]);
+            $this->publishes([
+                __DIR__ . '/../config/config.php' => config_path('reduxpanel.php'),
+            ], 'config');
         }
     }
 }
