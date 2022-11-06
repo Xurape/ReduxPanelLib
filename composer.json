@@ -13,7 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Xuap\\ReduxPanelLib\\ReduxPanelServiceProvider"
+                "Xuap\\ReduxPanelLib\\Providers\\ReduxPanelServiceProvider"
             ],
             "aliases": {
                 "ReduxPanel": "Xuap\\ReduxPanelLib\\Facades\\ReduxPanel"
