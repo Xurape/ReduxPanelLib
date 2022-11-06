@@ -1,5 +1,5 @@
 {
-    "name": "xuap/reduxpanel_laravel",
+    "name": "xuap/reduxpanellib",
     "description": "Use ReduxPanel API right inside your laravel project with this package.",
     "version": "1.0",
     "type": "library",
