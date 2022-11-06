@@ -1,0 +1,35 @@
+{
+    "name": "xuap/reduxpanel_laravel",
+    "description": "Use ReduxPanel API right inside your laravel project with this package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xuap\\ReduxpanelLaravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Xuap\\ReduxpanelLaravel\\dev\\": "dev/"
+        }
+    },
+    "authors": [
+        {
+            "name": "João Ferreira",
+            "email": "joaoferreira@reduxpanel.com",
+            "role": "Developer",
+            "homepage": "https://reduxpanel.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^9.38"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+      "sort-packages": true,  
+      "preferred-install": "dist",
+      "optimize-autoloader": true  
+    }
+}
