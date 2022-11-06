@@ -48,7 +48,7 @@ class InstallReduxPanelLib extends Command
     private function publishConfiguration($forcePublish = false)
     {
         $params = [
-            '--provider' => "Xuap\ReduxPanelLib\ReduxPanelServiceProvider",
+            '--provider' => "Xuap\ReduxPanelLib\Providers\ReduxPanelServiceProvider",
             '--tag' => "config"
         ];
 
