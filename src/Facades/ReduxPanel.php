@@ -12,8 +12,8 @@ class ReduxPanel extends Facade
 
     public function __construct($URL, $API_KEY)
     {
-        $this->URL = $URL;
-        $this->API_KEY = $API_KEY;
+        self::$URL = config('reduxpanel.URL');
+        self::$API_KEY = config('reduxpanel.API_KEY');
     }
 
     protected static function getFacadeAccessor()
@@ -23,6 +23,6 @@ class ReduxPanel extends Facade
 
     public static function getPanelVersion()
     {
-        return Http::get($this->URL . '/modules/api/data?comando=versao')['versao'];
+        return Http::get(self::$URL . '/modules/api/data?comando=versao')['versao'];
     }
 }
