@@ -117,14 +117,28 @@ To get the current panel version, you can simply use:
 
 
 # Todo
+```= Others =```
 - [X] ~~Make function for get panel version~~
+- [ ] Make function to get info from a player's id
+
+```= Servers =```
+- [ ] Make function to add a server
+- [ ] Make function to delete a server
+
+```= Plans =```
+- [ ] Make function to list plans
+- [ ] Make function to create plans
+- [ ] Make function to remove plans
+
+```= Groups =```
 - [ ] Make function to create groups
 - [ ] Make function to edit groups
 - [ ] Make function to delete groups
+
+```= Assign Groups =```
 - [ ] Make function to assign groups
 - [ ] Make function to edit an assigned group 
 - [ ] Make function to remove an assigned group 
-- [ ] Make function to get info from a player's id
 
 # Note
     This is a WIP library.
