@@ -117,8 +117,14 @@ To get the current panel version, you can simply use:
 
 
 # Todo
-- [ X ] ~~Make command for get panel version~~
-- [   ] Other
+- [X] ~~Make function for get panel version~~
+- [ ] Make function to create groups
+- [ ] Make function to edit groups
+- [ ] Make function to delete groups
+- [ ] Make function to assign groups
+- [ ] Make function to edit an assigned group 
+- [ ] Make function to remove an assigned group 
+- [ ] Make function to get info from a player's id
 
 # Note
     This is a WIP library.
