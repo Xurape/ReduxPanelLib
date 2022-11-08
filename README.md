@@ -115,15 +115,30 @@ To get the current panel version, you can simply use:
     }
 ```
 
+## <p id="getplayerinfo">- Get player info</p>
+To get a player's info, you can simply use:
+```php
+    ReduxPanel::getPlayerInfo($steamid);
+
+    // Or specifically in a controller like
+
+    ...
+
+    public static function returnInfo($steamid)
+    {
+        return ReduxPanel::getPlayerInfo($steamid);
+    }
+```
+
 
 # Todo
 ```= Others =```
 - [X] ~~Make function for get panel version~~
-- [ ] Make function to get info from a player's id
+- [X] Make function to get info from a player's id
 
 ```= Servers =```
 - [ ] Make function to add a server
-- [ ] Make function to delete a server
+- [ ] Make function to list all servers
 
 ```= Plans =```
 - [ ] Make function to list plans
