@@ -117,7 +117,8 @@ To get the current panel version, you can simply use:
 
 
 # Todo
-- [ ] Maybe make the todo list? lol
+- [ X ] ~~Make command for get panel version~~
+- [   ] Other
 
 # Note
     This is a WIP library.
