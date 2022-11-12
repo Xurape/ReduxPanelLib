@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 <a href="https://reduxpanel.com" target="_blank">
 <img src="https://i.imgur.com/tys3mXz.png" alt="ReduxPanel" width=300 />
 </a>
@@ -12,7 +12,7 @@
 
 </p>
 
-</center>
+</div>
 
 # Introduction
 
